@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Top from './components/Top/Top'
 import Card from './components/Card/Card'
