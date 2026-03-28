@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+background: #98FF96;
+background: radial-gradient(circle, rgba(152, 255, 150, 1) 0%, rgba(0, 153, 41, 1) 35%, rgba(0, 52, 0, 1) 100%);  
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  color: white;
+  font-size: 2rem;
+}

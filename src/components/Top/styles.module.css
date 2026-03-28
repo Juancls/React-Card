@@ -1,0 +1,18 @@
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(58, 100, 60);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+.txtTop{
+    font-size: 23rem;
+    text-align: center;
+    background-image: url('../../assets/imgTxt.jpg');
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+}
