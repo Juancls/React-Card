@@ -1,18 +1,31 @@
-# React + Vite
+# React Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de cards de natureza criado com React e Vite.
 
-Currently, two official plugins are available:
+## Sobre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este projeto exibe cinco cards com imagens e descrições de florestas e bosques mágicos.
 
-## React Compiler
+## Scripts úteis
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `npm install` — instalar dependências
+- `npm run dev` — rodar ambiente de desenvolvimento
+- `npm run build` — gerar build de produção
+- `npm run preview` — pré-visualizar o build
+- `npm run lint` — rodar ESLint
+- `npm run deploy` — publicar no GitHub Pages
 
-## Expanding the ESLint configuration
+## Deploy
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# React-Card" 
-"# React-Card" 
+O site está configurado para ser hospedado em GitHub Pages usando o branch `gh-pages`.
+
+URL de publicação:
+
+https://Juancls.github.io/React-Card
+
+## Estrutura
+
+- `src/App.jsx` — componente principal
+- `src/components/Card/Card.jsx` — card de conteúdo
+- `src/components/Top/Top.jsx` — cabeçalho superior
+- `vite.config.js` — base configurada para GitHub Pages
